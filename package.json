@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "lint": "eslint ./src",
     "e2e": "cypress run",
-    "ci:test": "vitest --no-watch && start-server-and-test dev http-get://0.0.0.0:5173 e2e"
+    "ci:test": "vitest --no-watch && start-server-and-test dev http-get://localhost:5173 e2e"
   },
   "dependencies": {
     "@dimasmds/react-redux-loading-bar": "^5.0.10",
